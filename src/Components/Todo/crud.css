@@ -1,0 +1,70 @@
+.whole-body {
+
+    background: linear-gradient(135deg, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+    background-size: 200% 200%;
+    animation: gradientAnimation 15s linear infinite;
+    height:100vh;
+}
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+.awesome-header {
+    font-size: 5em;
+    background: linear-gradient(120deg, #ff5f6d, #ffc371);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    animation: gradientAnimation 5s infinite;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+input{
+
+    margin:11px;
+   
+  
+}
+
+.btn-up{
+    margin-left: 5px;
+}
+
+.cont{
+    margin: 10px;
+    border:1px solid black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+
+    padding: 15px;
+    flex-grow: 1;
+    text-align: center;
+ }
+ 
+ .df{
+     display:flex;
+     gap:0 10px;
+ }
+
+
+
+
+
+
+
+ 
+ 
