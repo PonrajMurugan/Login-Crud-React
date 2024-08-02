@@ -53,11 +53,13 @@ input{
     padding: 15px;
     flex-grow: 1;
     text-align: center;
+     flex-wrap: wrap;
  }
  
  .df{
      display:flex;
      gap:0 10px;
+     flex-wrap: wrap;
  }
 
 
